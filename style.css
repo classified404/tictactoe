@@ -1,0 +1,73 @@
+body{
+    
+}
+container.mij {
+    display: flex;
+    justify-content: center;
+}
+container{
+    margin-top: 20px;
+   
+    
+}
+div.row {
+    display: flex;
+}
+div.buton {
+    font-family: 'Comfortaa', cursive;
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    background-color: snow;
+    color: black;
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: context-menu;
+}
+div.buton:hover {
+    background-color: cornflowerblue;
+}
+
+#b1,#b3,#b7,#b9 {
+    border-style: solid;
+}
+#b2,#b8 {
+    border-style: solid none;
+}
+#b4, #b6 {
+    border-style: none solid;
+}
+
+#again {
+    font-family: 'Lato', sans-serif;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    cursor: context-menu;
+    font-size: 30px;
+    font-weight:bold
+}
+#again:hover {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background-color: cornflowerblue;
+    color: white;
+}
+div.buton.no {
+    cursor: not-allowed;
+}
+#victorie {
+    font-family: 'Lato', sans-serif;
+    color: blue;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 30px;
+}
